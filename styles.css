@@ -6,6 +6,12 @@ body {
   color: #333;
   overflow-x: hidden;
 }
+.dishes {
+display: flex;
+justify-content: center;
+align-item: center;
+margin: 10px;
+}
 
 /* Hero Section */
 .hero {
