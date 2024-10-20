@@ -8,6 +8,7 @@ body {
 }
 .dishes {
 display: flex;
+flex-direction: column;
 justify-content: center;
 align-item: center;
 margin: 10px;
