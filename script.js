@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
+
+  function scrollToCountries() {
+  document.getElementById('countries').scrollIntoView({ behavior: 'smooth' });
+}
+
   const links = document.querySelectorAll("nav a");
 
   // Smooth scrolling effect for anchor links
