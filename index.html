@@ -1,29 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>World Food Culture</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>Explore the World through Food</h1>
-    <p>Discover the unique flavors and traditions from every corner of the globe.</p>
-  </header>
 
-  <nav>
-    <ul>
-      <li><a href="italy.html">Italy</a></li>
-      <li><a href="japan.html">Japan</a></li>
-      <li><a href="mexico.html">Mexico</a></li>
-      <li><a href="india.html">India</a></li>
-      <li><a href="france.html">France</a></li>
-    </ul>
-  </nav>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Explore World Cuisines</h1>
+    <p>Taste the world from the comfort of your home.</p>
+    <button onclick="scrollToCountries()">Discover More</button>
+  </section>
+
+  <!-- Countries Section -->
+  <section id="countries" class="country-grid">
+    <div class="country-card" onclick="location.href='italy.html'">
+      <img src="images/italy.jpg" alt="Italy">
+      <div class="overlay">
+        <h2>Italy</h2>
+      </div>
+    </div>
+
+    <div class="country-card" onclick="location.href='japan.html'">
+      <img src="images/japan.jpg" alt="Japan">
+      <div class="overlay">
+        <h2>Japan</h2>
+      </div>
+    </div>
+
+    <div class="country-card" onclick="location.href='mexico.html'">
+      <img src="images/mexico.jpg" alt="Mexico">
+      <div class="overlay">
+        <h2>Mexico</h2>
+      </div>
+    </div>
+
+    <div class="country-card" onclick="location.href='india.html'">
+      <img src="images/india.jpg" alt="India">
+      <div class="overlay">
+        <h2>India</h2>
+      </div>
+    </div>
+
+    <div class="country-card" onclick="location.href='france.html'">
+      <img src="images/france.jpg" alt="France">
+      <div class="overlay">
+        <h2>France</h2>
+      </div>
+    </div>
+  </section>
 
   <footer>
     <p>&copy; 2024 World Food Culture. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
