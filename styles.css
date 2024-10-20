@@ -1,11 +1,9 @@
-
 /* General Styles */
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
   background-color: #f3f3f3;
   color: #333;
-  overflow-x: hidden;
 }
 
 /* Hero Section */
@@ -20,27 +18,23 @@ body {
   align-items: center;
   text-align: center;
   color: white;
-  position: relative;
 }
 
 .hero h1 {
   font-size: 3em;
-  margin-bottom: 10px;
 }
 
 .hero p {
   font-size: 1.5em;
-  margin-bottom: 20px;
 }
 
 .hero button {
   background-color: #ff6347;
-  border: none;
   padding: 15px 30px;
-  font-size: 1.2em;
   color: white;
-  cursor: pointer;
+  border: none;
   border-radius: 5px;
+  cursor: pointer;
   transition: background-color 0.3s;
 }
 
@@ -48,7 +42,7 @@ body {
   background-color: #e55337;
 }
 
-/* Countries Grid Section */
+/* Country Grid */
 .country-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -83,7 +77,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
   opacity: 0;
   transition: opacity 0.3s;
 }
@@ -104,3 +97,4 @@ footer {
   background-color: #333;
   color: white;
 }
+
